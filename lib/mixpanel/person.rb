@@ -41,8 +41,8 @@ module Mixpanel::Person
     append 'identify', distinct_id
   end
 
-  def append_people_identify(distinct_id)
-    append 'people.identify', distinct_id
+  def append_alias(aliased_id)
+    append 'alias', aliased_id
   end
 
   protected
